@@ -10,4 +10,5 @@ from rtsp.frame_processor import detect_person, detect_paying
 from db.database import get_db
 from db.crud import get_all_detections, delete_detection, insert_motion_period
 
+# load_dotenv()
 load_dotenv()
